@@ -6,4 +6,5 @@ body {
     rgb(31, 1, 31)
   );
   margin: 0;
+  overflow: hidden;
 }

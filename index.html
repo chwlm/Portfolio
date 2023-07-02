@@ -8,27 +8,27 @@
   </head>
   <body>
     <div class="header">
-      <div class="sub-header">
+      <div class="sub-header" onclick="slide(0);">
         Home
       </div>
-      <div class="sub-header">
+      <div class="sub-header" onclick="slide(100);">
         About
       </div>
-      <div class="sub-header">
+      <div class="sub-header" onclick="slide(200);">
         Education
       </div>
-      <div class="sub-header">
+      <div class="sub-header" onclick="slide(300);">
         Contact
       </div>
     </div>
-    <div class="page-home">
+    <div class="page-home page">
       <div class="bg-page-home">
         <div class="title">
           <div class="title-name">
             Chawin Leardswai
           </div>
           <div class="sub-title-name">
-            Student of Chulalongkorn university          
+            Student of Chulalongkorn University          
           </div>
         </div>
         <div class="container-profile">
@@ -36,15 +36,51 @@
         </div>
       </div> 
     </div>
-    <div class="page-about">
+    <div class="page-about page">
       Page About
     </div>
-    <div class="page-education">
-      Page Education
+    <div class="page-education page">
+      <div class="middleschool-section">
+        <div class="school1-title">
+          <div class="school1-section">
+            Middle-School
+          </div>
+          <div class="school1-name">
+            Yothinburana School
+          </div>
+        </div>
+        <img src="images/Yothinburana School.jpg" class="school1-logo">
+      </div>
+      <div class="highschool-section">
+        <img src="images/Mahidol Wittayanusorn School.jpg" class="school2-logo">
+        <div class="school2-title">
+          <div class="school2-section">
+            High-School
+          </div>
+          <div class="school2-name">
+            Mahidol Wittayanusorn School
+          </div>
+        </div>
+      </div>
+      <div class="university-section">
+        <div class="school3-title">
+          <div class="school3-section">
+            University
+          </div>
+          <div class="school3-name">
+            Chulalongkorn University
+          </div>
+          <div class="school-faculty">
+            Faculty of Computer Engineering and Digital Technology (CEDT)
+          </div>
+        </div>
+        <img src="images/Chulalongkorn University.jpg" class="school3-logo">
+      </div>
     </div>
-    <div class="page-contact">
+    <div class="page-contact page">
       Page Contact
     </div>
-    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
