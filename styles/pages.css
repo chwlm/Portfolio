@@ -114,40 +114,40 @@
 }
 
 .detail1 {
-  width: 400px;
-  height: 400px;
-  bottom: 10px;
-  left: 20px;
+  width: 26vw;
+  height: 26vw;
+  bottom: 1vh;
+  left: 1.5vw;
 }
 
 .detail2 {
-  width: 450px;
-  height: 450px;
-  left: 270px;
-  top: 70px;
+  width: 30vw;
+  height: 30vw;
+  left: 18vw;
+  top: 7vh;
   z-index: 10;
 }
 
 .detail3 {
-  width: 300px;
-  height: 300px;
-  bottom: 5px;
-  right: 580px;
+  width: 20vw;
+  height: 20vw;
+  bottom: 0.5vh;
+  right: 38vw;
   cursor: pointer;
 }
 
 .detail4 {
-  width: 500px;
-  height: 500px;
-  right: 280px;
-  top: 40px;
+  width: 33vw;
+  height: 33vw;
+  right: 20vw;
+  top: 4vh;
 }
 
 .detail5 {
-  width: 400px;
-  height: 400px;
-  bottom: 20px;
-  right: 40px;
+  width: 26vw;
+  height: 26vw;
+  bottom: 2vh;
+  right: 3vw;
 }
 
 .detail:hover {
