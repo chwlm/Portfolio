@@ -1,0 +1,247 @@
+.pages {
+  width: 320%;
+  height: 100vh;
+
+  background: linear-gradient(
+    to bottom,
+    #E966A0,
+    #9575DE,
+    #9575DE
+  );
+
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 20vw;
+}
+
+.home-page,
+.projects-page,
+.workexperience-page,
+.education-page {
+  width: 80vw;
+  height: 70vh;
+  top: 0;
+
+  transition: 1s;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-welcome {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.home-page-sitename {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.projects-page {
+
+}
+
+.workexperience-page {
+
+}
+
+.education-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  row-gap: 15px;
+  margin-top: 70px;
+}
+
+.education-card-1,
+.education-card-2,
+.education-card-3 {
+  width: 65vw;
+  height: 15vh;
+
+  background: white;
+  backdrop-filter: blur(8px);
+
+  border-radius: 10px;
+
+  transition: 0.5s;
+  position: relative;
+
+  box-shadow: -5px 5px 4px rgb(0, 0, 0, 0.25);
+}
+
+.education-card-1 {
+  background-image: linear-gradient(
+    transparent,
+    white
+  ),url(../image/Yothinburana\ School.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.education-card-2 {
+  background-image: linear-gradient(
+    transparent,
+    white
+  ),url(../image/Mahidol\ Wittayanusorn\ School.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.education-card-3 {
+  background-image: linear-gradient(
+    transparent,
+    white
+  ),url(../image/Chulalongkorn\ University.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.education-card-title,
+.education-card-school,
+.education-card-faculty,
+.education-card-year,
+.education-card-gpa {
+  position: absolute;
+  
+  transition: 0.5s;
+}
+
+.education-card-title {
+  font-size: 60px;
+  font-weight: bold;
+
+  left: 40px;
+  top: 20px;
+}
+
+.education-card-school {
+  left: 40px;
+  top: 20px;
+
+  font-size: 0px;
+}
+
+.education-card-faculty {
+  left: 40px;
+  top: 20px;
+
+  font-size: 0px;
+}
+
+.education-card-year {
+  left: 40px;
+  top: 20px;
+
+  font-size: 0px;
+}
+
+.education-card-gpa {
+  left: 40px;
+  top: 20px;
+
+  font-size: 0px;
+}
+
+.education-card-1:hover > .education-card-school {
+  left: 40px;
+  top: 100px;
+  font-size: 40px;
+}
+.education-card-1:hover > .education-card-faculty {
+  left: 40px;
+  top: 160px;
+  font-size: 20px;
+}
+.education-card-1:hover > .education-card-year {
+  left: 40px;
+  top: 200px;
+  font-size: 20px;
+}
+.education-card-1:hover > .education-card-gpa {
+  left: 40px;
+  top: 240px;
+  font-size: 20px;
+}
+
+.education-card-2:hover > .education-card-school {
+  left: 40px;
+  top: 100px;
+  font-size: 40px;
+}
+.education-card-2:hover > .education-card-faculty {
+  left: 40px;
+  top: 160px;
+  font-size: 20px;
+}
+.education-card-2:hover > .education-card-year {
+  left: 40px;
+  top: 200px;
+  font-size: 20px;
+}
+.education-card-2:hover > .education-card-gpa {
+  left: 40px;
+  top: 240px;
+  font-size: 20px;
+}
+
+.education-card-3:hover > .education-card-school {
+  left: 40px;
+  top: 100px;
+  font-size: 40px;
+}
+.education-card-3:hover > .education-card-faculty {
+  left: 40px;
+  top: 160px;
+  font-size: 20px;
+}
+.education-card-3:hover > .education-card-year {
+  left: 40px;
+  top: 200px;
+  font-size: 20px;
+}
+.education-card-3:hover > .education-card-gpa {
+  left: 40px;
+  top: 240px;
+  font-size: 20px;
+}
+
+.page-dot {
+  position: fixed;
+
+  bottom: 35vh;
+  right: 40vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 5px;
+
+  z-index: 300;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+
+  background-color: white;
+
+  border-radius: 50%;
+  border: solid black 2px;
+
+  transition: 0.2s;
+}
+
+
+
