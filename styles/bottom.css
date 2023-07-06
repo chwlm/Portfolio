@@ -11,4 +11,42 @@
   z-index: 100;
 
   border-top: solid 2px;
+
+  display: grid;
+  grid-template-columns: 1fr 400px;
+}
+
+.aboutme,
+.skill {
+  border: solid white;
+}
+
+.aboutme {
+  flex: 1;
+}
+
+.skill {
+  flex: 1;
+
+  padding: 20px 30px;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-self: center;
+
+  row-gap: 10px;
+
+  margin-top: 5px;
+}
+
+.skill-list-icon {
+  width: 70px;
+  height: 70px;
+
+  object-fit: contain;
 }
