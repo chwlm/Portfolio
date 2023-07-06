@@ -10,13 +10,13 @@
   </head>
   <body>
     <div class="header">
-      <div class="element-header">Home</div>
-      <div class="element-header">Projects</div>
-      <div class="element-header">Work experience</div>
-      <div class="element-header">Education</div>
+      <div class="element-header" onclick="change_page(0)" style="text-decoration: underline;">Home</div>
+      <div class="element-header" onclick="change_page(1)">Projects</div>
+      <div class="element-header" onclick="change_page(2)">Work experience</div>
+      <div class="element-header" onclick="change_page(3)">Education</div>
     </div>
     <div class="carder">
-      <img class="profile-pic">
+      <img class="profile-pic" src="image/profile.jpg">
       <div class="profile-name">Chawin Leardswai</div>
       <div class="profile-contact">
         <div class="profile-contact-title">
@@ -34,7 +34,31 @@
     </div>
     <div class="bottom">
       <div class="aboutme">
-        About me
+        <div class="aboutme-section-1">About me</div>
+        <div class="aboutme-section-2"></div>
+        <div class="aboutme-section-3">
+          <div class="personal-inf-1">
+            <div class="personal-inf-title">Fullname</div>
+            <div class="personal-inf-detail">Chawin Leardswai</div>
+            <div class="personal-inf-title">Nickname</div>
+            <div class="personal-inf-detail">Mas</div>
+            <div class="personal-inf-title">Birthday</div>
+            <div class="personal-inf-detail">10 October 2004</div>
+            <div class="personal-inf-title">Ages</div>
+            <div class="personal-inf-detail">19 years</div>
+            <div class="personal-inf-title">Nationality</div>
+            <div class="personal-inf-detail">Thai</div>
+            <div class="personal-inf-title">Hobby</div>
+            <div class="personal-inf-detail">Read book, Develop website, Play music</div>
+          </div>
+          <div class="personal-inf-2">
+            <div class="personal-inf-2-title">Hi!</div>
+            <div class="personal-inf-2-essay">
+              babes fsfe b sfedsf fdsfsef. fsfefdsf ,f seff fsfsdfe. f sdfef sfdfsdf sd.
+              fsdfsdfsd fsfe fsfd ffs ffssfsfefdf. fsfsefsdfsef sfdfdess.
+            </div>
+          </div>
+        </div>
       </div>
       <div class="skill">
         Skill
@@ -48,8 +72,40 @@
         </div>
       </div>
     </div>
+    
     <div class="pages">
-      page
+      <div class="home-page page">
+        <div class="home-page-welcome">Welcome to</div>
+        <div class="home-page-sitename">chawinlea.com</div>
+      </div>
+      <div class="projects-page page">
+        project
+      </div>
+      <div class="workexperience-page page">
+        Work experience
+      </div>
+      <div class="education-page page">
+        <div class="education-card-1 education-card" onmouseover="chage_education_card(0)" onmouseleave="defult_education_card()">
+          <div class="education-card-title">Middle School</div>
+          <div class="education-card-school">Yothinburana School</div>
+          <div class="education-card-faculty">Science and Math Program (SMP)</div>
+          <div class="education-card-year">Year 2017-2020</div>
+          <div class="education-card-gpa">GPA : 3.55</div>
+        </div>
+        <div class="education-card-2 education-card" onmouseover="chage_education_card(1)" onmouseleave="defult_education_card()">
+          <div class="education-card-title">High School</div>
+          <div class="education-card-school">Mahidol Wittayanusorn School</div>
+          <div class="education-card-year">Year 2020-2023</div>
+          <div class="education-card-gpa">GPA : 3.69</div>
+        </div>
+        <div class="education-card-3 education-card" onmouseover="chage_education_card(2)" onmouseleave="defult_education_card()">
+          <div class="education-card-title">University</div>
+          <div class="education-card-school">Chulalongkorn University</div>
+          <div class="education-card-faculty">Faculty of Computer Engineering and Digital Technology (CEDT)</div>
+          <div class="education-card-year">Year 2023-now</div>
+          <div class="education-card-gpa">GPA : -</div>
+        </div>
+      </div>
     </div>
 
 
