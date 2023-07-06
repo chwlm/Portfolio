@@ -1,139 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mas's Portfolio</title>
+    <title>chawinlea.com</title>
+    <link rel="stylesheet" href="styles/bottom.css">
+    <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/pages.css">
   </head>
   <body>
     <div class="header">
-      <div class="sub-header" onclick="slide(0);">
-        Home
-      </div>
-      <div class="sub-header" onclick="slide(100);">
-        About
-      </div>
-      <div class="sub-header" onclick="slide(200);">
-        Education
-      </div>
-      <div class="sub-header" onclick="slide(300);">
-        Contact
+      <div class="element-header">Home</div>
+      <div class="element-header">Projects</div>
+      <div class="element-header">Work experience</div>
+      <div class="element-header">Education</div>
+    </div>
+    <div class="carder">
+      <img class="profile-pic" src="image/profile.jpg">
+      <div class="profile-name">Chawin Leardswai</div>
+      <div class="profile-contact">
+        <div class="profile-contact-title">
+          Contact
+        </div>
+        <div class="profile-contact-detail">
+          <div class="profile-contact-detail-icon sub-detail">&#128231</div>
+          <div class="profile-contact-detail-text sub-detail">l.chawin@outlook.com</div>
+          <div class="profile-contact-detail-icon sub-detail">&#128241</div>
+          <div class="profile-contact-detail-text sub-detail">090-421-8886</div>
+          <div class="profile-contact-detail-icon sub-detail">&#127968</div>          
+          <div class="profile-contact-detail-text sub-detail">324/15 Pacharath 1 Rd. Bangsue Bangsue Bangkok 10800</div>
+        </div>
       </div>
     </div>
-    <div class="page-home page">
-      <div class="bg-page-home">
-        <div class="title">
-          <div class="title-name">
-            Chawin Leardswai
-          </div>
-          <div class="sub-title-name">
-            Student of Chulalongkorn University          
-          </div>
-        </div>
-        <div class="container-profile">
-          <img src="images/home-page/profile.jpg" class="profile-img">
-        </div>
-      </div> 
+    <div class="bottom">
+      bottom
     </div>
-
-    <div class="page-about page">
-      <div class="detail1 detail" onclick="show_about(0)">
-        <div class="detailA detail-front">
-          A
-        </div>
-        <div class="sub-detailA detail-back">
-          <div class="title-sub-detailA">Personal information</div>
-          <div>Full name : Chawin Leardswai</div>
-          <div>Nick name : Mas</div>
-          <div>Nationality : Thai</div>
-          <div>Birthday : 10 October 2004</div>
-          <div>Age : 18 years</div>
-          <div>Hobby : Read book, Develop website, Play guitar</div>
-        </div>
-      </div>
-      <div class="detail2 detail" onclick="show_about(1)">
-        <div class="detailB detail-front">
-          B
-        </div>
-        <div class="sub-detailB detail-back">
-          <div class="title-sub-detailB">About me</div>
-          <p>
-            Hello, I'm a student of somewhere. I want many thing.
-            Then I must earn a lot of money. give it to me! I have a gun.
-          </p>
-        </div>
-      </div>
-      <div class="detail3 detail" onclick="show_about(2)">
-        <div class="detailO detail-front">
-          O
-        </div>
-        <div class="sub-detailO detail-back">
-          CC
-        </div>
-      </div>
-      <div class="detail4 detail" onclick="show_about(3)">
-        <div class="detailU detail-front">
-          U
-        </div>
-        <div class="sub-detailU detail-back">
-          <div class="title-sub-detailU">Skill</div>
-          <div>
-            HTML CSS Javascript C C++ Python
-          </div>
-        </div>
-      </div>
-      <div class="detail5 detail" onclick="show_about(4)">
-        <div class="detailT detail-front">
-          T
-        </div>
-        <div class="sub-detailT detail-back">
-          <div class="title-sub-detailT">Work Experience</div>
-        </div>
-      </div>
+    <div class="pages">
+      page
     </div>
 
-    <div class="page-education page">
-      <div class="middleschool-section">
-        <div class="school1-title">
-          <div class="school1-section">
-            Middle-School
-          </div>
-          <div class="school1-name">
-            Yothinburana School
-          </div>
-        </div>
-        <img src="images/education-page/Yothinburana School.jpg" class="school1-logo">
-      </div>
-      <div class="highschool-section">
-        <img src="images/education-page/Mahidol Wittayanusorn School.jpg" class="school2-logo">
-        <div class="school2-title">
-          <div class="school2-section">
-            High-School
-          </div>
-          <div class="school2-name">
-            Mahidol Wittayanusorn School
-          </div>
-        </div>
-      </div>
-      <div class="university-section">
-        <div class="school3-title">
-          <div class="school3-section">
-            University
-          </div>
-          <div class="school3-name">
-            Chulalongkorn University
-          </div>
-          <div class="school-faculty">
-            Faculty of Computer Engineering and Digital Technology (CEDT)
-          </div>
-        </div>
-        <img src="images/education-page/Chulalongkorn University.jpg" class="school3-logo">
-      </div>
-    </div>
-    <div class="page-contact page">
-      Page Contact
-    </div>
 
     <script src="script.js"></script>
   </body>

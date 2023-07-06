@@ -1,0 +1,75 @@
+.carder {
+  position: fixed;
+  
+  width: 20%;
+  height: 70vh;
+
+  background-color: #6554AF;
+  color: white;
+
+  left: 0;
+  top: 0;
+
+  z-index: 50;
+
+  border-right: solid 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  row-gap: 20px;
+
+}
+
+.profile-pic {
+  width: 15vw;
+  height: 15vw;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  margin-top: 80px;
+  
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 800;
+
+  color: #2B2730;
+}
+
+.profile-contact {
+  color: #2B2730;
+}
+
+.profile-contact-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+
+  margin-bottom: 15px;
+}
+
+.profile-contact-detail {
+  padding: 0px 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+
+  font-size: 16px;
+  row-gap: 5px;
+}
+
+.profile-contact-detail-icon {
+  text-align: center;
+}
+
+.profile-contact-detail-text {
+  align-self: center;
+  text-align: start;
+}
+
