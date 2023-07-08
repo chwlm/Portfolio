@@ -16,7 +16,6 @@ change_page = (index) => {
   header_element.forEach(
     (head,i) => ((index===i)? head.style.textDecoration = 'underline' :  head.style.textDecoration = 'none')
   )
-  
 }
 
 chage_education_card = (index) => {

@@ -28,6 +28,7 @@
   height: 15vw;
 
   object-fit: cover;
+  object-position: left;
 
   border-radius: 50%;
 
